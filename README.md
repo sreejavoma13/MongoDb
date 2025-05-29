@@ -1,7 +1,7 @@
 # MongoDb
 <!--I used Mongo DB Compass tool to run the commands -->
-<p>
-  use example
+```javascript
+use example
 switched to db example
 db.todo_table.insertOne({task : "Play",
 status:"Not done"})
@@ -750,4 +750,4 @@ db.todo_table.find(
 db.todo_table.find(
   {dueDate : {$eq : new Date(28)}}
 );
-</p>
+```
